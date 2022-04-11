@@ -237,3 +237,15 @@ padding-right: 1cm;
 
 
     .registersection
+
+
+
+    .imagen-detalles-genero{
+      height: 200px;
+      width: 225px;
+  }
+  
+  .detalle-genero-listado{
+      display: flex;
+      justify-content: space-around;
+  }
