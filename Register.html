@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  <link rel="stylesheet" href="../css/style.css">
+    <title>Formulario de registro</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="firstbody">
 
@@ -43,15 +43,76 @@
           <div class="div10"> <h2 class="register">Register</h2></div>
          
 <section class="registersection"> 
-<article class="registersection">
+  <article class="registersection">
+
     <form>
+      <label class="textlabels" for="Nombre"> Nombre:</label>
+      <input type="text" name="nombres" id="nombres" required />
+<br>
+<br>
+        <label class="textlabels" for="Apellido"> Apellido: </label>
+        <input type="text" name="Apellido" id="Apellido" />
+      
+<br>
+<br>
+        <label class="textlabels" for="Email"> Email:</label >
+       <input type="text" id="Email" required> 
 
-        <label for="Nombre"></label>
-        <input type="Name" >
+<br>
+<br>
+       <label class="textlabels" for="Nacionalidad"> Nacionalidad:</label>
+       <select name="Nacionalidad">
 
+         <option>Argentina</option>
+   
+         <option>Estados unidos</option>
+         <option>Francesa</option>
+         <option>Italiana</option>
+         <option>Armenia</option>
+         <option>China</option>
+         <option>Japonesa</option>
+         <option>Cubana</option>
+         <option>UK</option>
+         <option>Alemana</option>
+         <option>Suecia</option>
+         <option>Española</option>
+         <option>Boliviana</option>
+         <option>Uruguaya</option>
+         <option>Venezolana</option>
+         <option>Colombiana</option>
+         <option>Paraguaya</option>
+         <option>Chileno</option>
+         <option>Mexicana</option>
+         <option>Rusa</option>
+         <option>Turca</option>
+         <option>Noruega</option>
+         </select>
+      
+         <br>
+         <br>
 
+         <label class="textlabels" for="Genero"> Genero:</label>
+          <select name="genero">
 
+            <option>Masculino</option>
+            <option>Femenino</option>
+            <option>Prefiero no decirlo</option>
+    
+          </select>
+<br>
+<br>
+<input type="checkbox" name="terms" onclick="disablesending()" />
+<label class="textlabels" for="terms">
+  <a class="textlabels" href="./condiciones.html">
+    Acepto condiciones generales</a
+  ></label>
+<br>
+<br>
 
+          <input type="reset" name="reset" id="reset" placeholder="Reset" />
+          <br />
+          <br />
+          <input type="submit" name="submit" id="submit" placeholder="submit" />
     </form>
 
 </article>
