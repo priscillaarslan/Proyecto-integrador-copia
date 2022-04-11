@@ -261,3 +261,19 @@
 }
 
 
+<<<<<<< HEAD
+=======
+    .registersection
+
+
+
+    .imagen-detalles-genero{
+      height: 200px;
+      width: 225px;
+  }
+  
+  .detalle-genero-listado{
+      display: flex;
+      justify-content: space-around;
+  }
+>>>>>>> ceeaf0e7520dddd19521ec92d420d7f001a7107a
