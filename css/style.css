@@ -262,10 +262,48 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.div11 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: left;
+}
 
-.div11{display: flex;
-  flex-wrap: wrap; justify-content: space-between; 
-align-items: left;}
+.section6 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding-left: 0.5cm;
+  padding-right: 0.8;
+  padding-top: 1cm;
+}
 
+.playlists {
+  border-style: solid;
+  border-color: rgb(239, 197, 153);
+  border-width: 0.1cm;
+}
 
-.section6{display: flex; justify-content: center;}
+.tituloplaylists {
+  color: white;
+}
+
+.listadetalle {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; width: 200px; padding-left: 1cm;
+}
+
+.h2detalles {
+  color: white;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.pdetalles{ color: white;
+  font-size: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;}
+
+    .imgdetalles
