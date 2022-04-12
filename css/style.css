@@ -291,7 +291,7 @@
 .listadetalle {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; width: 200px; padding-left: 1cm;
+  flex-wrap: wrap; width: 180px; padding-left: 1cm; padding-right: 1cm; justify-content: center;
 }
 
 .h2detalles {
@@ -306,4 +306,4 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;}
 
-    .imgdetalles
+    
