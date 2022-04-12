@@ -6,6 +6,7 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
+  justify-content: space-between;
   height: 1000px;
   width: 250px;
   justify-content: space-around;
@@ -23,6 +24,7 @@
   flex-wrap: nowrap;
   justify-content: right;
   background: radial-gradient(circle, #93684c, #200a2b);
+  text-decoration: none;
 }
 
 .loginregister {
@@ -261,19 +263,9 @@
 }
 
 
-<<<<<<< HEAD
-=======
-    .registersection
+.div11{display: flex;
+  flex-wrap: wrap; justify-content: space-between; 
+align-items: left;}
 
 
-
-    .imagen-detalles-genero{
-      height: 200px;
-      width: 225px;
-  }
-  
-  .detalle-genero-listado{
-      display: flex;
-      justify-content: space-around;
-  }
->>>>>>> ceeaf0e7520dddd19521ec92d420d7f001a7107a
+.section6{display: flex; justify-content: center;}
