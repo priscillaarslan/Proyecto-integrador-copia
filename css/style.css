@@ -1,6 +1,7 @@
 .firstbody {
   background: linear-gradient(100deg, #0b000f 0%, #791a98 200%);
 }
+
 .divgeneral {
   color: white;
   display: flex;
@@ -291,7 +292,11 @@
 .listadetalle {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; width: 180px; padding-left: 1cm; padding-right: 1cm; justify-content: center;
+  flex-wrap: wrap;
+  width: 180px;
+  padding-left: 1cm;
+  padding-right: 1cm;
+  justify-content: center;
 }
 
 .h2detalles {
@@ -301,9 +306,10 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.pdetalles{ color: white;
+.pdetalles {
+  color: white;
   font-size: 10px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;}
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 
-    
