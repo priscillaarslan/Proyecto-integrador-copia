@@ -398,3 +398,24 @@
   border-width: 0.03cm;
   border-color: rgb(255, 255, 255);
 }
+
+.listadetalle1{
+  display: flex;
+  flex-direction: column;
+
+}
+.cajadetalle{
+  display: flex;
+  margin: 5px;
+}
+
+.h1detalles{
+  color: white;
+}
+
+.listagenero{
+  display: flex;
+justify-content: space-around;
+color: white;
+font-size: 50px;
+}
