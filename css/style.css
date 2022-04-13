@@ -1,3 +1,5 @@
+
+
 .firstbody {
   background: linear-gradient(100deg, #0b000f 0%, #791a98 200%);
 }
@@ -294,8 +296,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   width: 180px;
-  padding-left: 1cm;
-  padding-right: 1cm;
+  margin-left: 20px;
   justify-content: center;
 }
 
@@ -313,3 +314,11 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.listadetalle1{
+ display: flex;
+ flex-direction: column;
+}
+
+.cajaDestalle{
+  display: flex;
+}
