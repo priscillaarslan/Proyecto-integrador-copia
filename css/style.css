@@ -29,7 +29,8 @@
 }
 
 .loginregister {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 15px;
   text-align: right;
   color: white;
@@ -40,7 +41,8 @@
 .comandos {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .logo {
@@ -137,12 +139,14 @@
 .extras {
   color: rgb(148, 147, 147);
   font-size: 15px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: lighter;
 }
 
 .textfooter {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 15px;
   font-weight: lighter;
   text-align: right;
@@ -293,8 +297,6 @@
   padding-left: 0.5cm;
 }
 
-
-
 .pdetalle {
   color: white;
 }
@@ -315,53 +317,83 @@
 .ppp {
   color: white;
   justify-content: center;
-  padding-left: 1cm; font-weight: bolder 80%;
+  padding-left: 1cm;
+  font-weight: bolder 80%;
 }
 
 .iframe {
   width: 300px;
 }
 
-
-.section10{display: flex;
+.section10 {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-between;
   padding-right: 0.5cm;
   padding-top: 1cm;
-  padding-left: 0.5cm; border-style: solid; border-width: 0.03cm; border-color:rgb(255, 253, 253) ;}
-.section11{display: flex;
+  padding-left: 0.5cm;
+  border-style: solid;
+  border-width: 0.03cm;
+  border-color: rgb(255, 253, 253);
+}
+.section11 {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-between;
   padding-right: 0.5cm;
   padding-top: 1cm;
-  padding-left: 0.5cm; border-style: solid; border-width: 0.03cm; border-color:rgb(255, 255, 255) ;}
-.section12{display: flex;
+  padding-left: 0.5cm;
+  border-style: solid;
+  border-width: 0.03cm;
+  border-color: rgb(255, 255, 255);
+}
+.section12 {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-between;
   padding-right: 0.5cm;
   padding-top: 1cm;
-  padding-left: 0.5cm; border-style: solid; border-width: 0.03cm; border-color:rgb(255, 255, 255) ;}
-.section13{display: flex;
+  padding-left: 0.5cm;
+  border-style: solid;
+  border-width: 0.03cm;
+  border-color: rgb(255, 255, 255);
+}
+.section13 {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-between;
   padding-right: 0.5cm;
   padding-top: 1cm;
-  padding-left: 0.5cm; border-style: solid; border-width: 0.03cm; border-color:rgb(255, 255, 255) ;}
-.section14{display: flex;
+  padding-left: 0.5cm;
+  border-style: solid;
+  border-width: 0.03cm;
+  border-color: rgb(255, 255, 255);
+}
+.section14 {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-between;
   padding-right: 0.5cm;
   padding-top: 1cm;
-  padding-left: 0.5cm; border-style: solid; border-width: 0.03cm; border-color:rgb(249, 255, 255) ;}
-.section15{display: flex;
+  padding-left: 0.5cm;
+  border-style: solid;
+  border-width: 0.03cm;
+  border-color: rgb(249, 255, 255);
+}
+.section15 {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-between;
   padding-right: 0.5cm;
   padding-top: 1cm;
-  padding-left: 0.5cm; border-style: solid; border-width: 0.03cm; border-color:rgb(255, 255, 255) ;}
+  padding-left: 0.5cm;
+  border-style: solid;
+  border-width: 0.03cm;
+  border-color: rgb(255, 255, 255);
+}
