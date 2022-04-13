@@ -410,9 +410,9 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .cajadetalle {
-  flex-wrap: wrap;
   display: flex;
-  padding-left: 2cm;
+  justify-content: space-around;
+  margin: 10px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
