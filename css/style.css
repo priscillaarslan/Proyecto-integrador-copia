@@ -226,7 +226,7 @@
 
 .img2 {
   width: 200px;
-  height: 190px;
+  height: 190px; 
 }
 
 .div9 {
@@ -481,5 +481,29 @@
   justify-content: right;
   padding-right: 0.5cm;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; padding-top: 0.2cm;
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 0.2cm;
+}
+
+/*/Playlist/*/
+
+.playlist1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1cm;
+  font-size: 25px;
+  color: white;
+  size: 25px;
+  padding-left: 1.2cm;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.playlist2{display: flex; flex-wrap: wrap; padding-left: 1cm; width: 300px;}
+
+.textplaylist {
+  color: white;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; flex-direction: column; justify-content: space-between;
 }
