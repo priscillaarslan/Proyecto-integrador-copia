@@ -288,6 +288,7 @@
   justify-content: center;
 }
 
+/*/Detalle de album/*/
 .section6 {
   display: flex;
   flex-wrap: wrap;
@@ -295,6 +296,15 @@
   justify-content: space-between;
   padding-right: 0.5cm;
   padding-top: 1cm;
+  padding-left: 0.5cm;
+}
+
+.section8 {
+  font-size: 20px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
   padding-left: 0.5cm;
 }
 
@@ -309,14 +319,7 @@
   color: white;
 }
 
-.section8 {
-  font-size: 20px;
-  color: white;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  display: flex;
-  padding-left: 0.5cm;
-}
+
 
 .ppp {
   color: white;
