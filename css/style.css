@@ -18,7 +18,6 @@
   float: left;
 }
 
-
 /*/Header/*/
 .div1 {
   width: 100%;
@@ -40,6 +39,7 @@
   font-weight: bold;
   justify-content: center;
 }
+
 .img1 {
   width: 200px;
   height: 190px;
@@ -52,7 +52,6 @@
   clear: both;
   float: left;
 }
-
 
 /*/Footer/*/
 .footer {
@@ -84,7 +83,6 @@
   padding-top: 0.2cm;
 }
 
-
 /*/index/*/
 .artistas2 {
   color: white;
@@ -110,13 +108,11 @@
   padding-right: 1cm;
 }
 
-
 .artistas {
   color: white;
   font-weight: bolder;
   text-align: center;
 }
-
 
 /*/Playlist/*/
 
@@ -132,15 +128,21 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.playlist2{display: flex; flex-wrap: wrap; padding-left: 1cm; width: 300px;}
+.playlist2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1cm;
+  width: 300px;
+}
 
 .textplaylist {
   color: white;
   font-size: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; flex-direction: column; justify-content: space-between;
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 
 .iframe1 {
   width: 300px;
@@ -239,9 +241,20 @@
   flex-direction: column;
 }
 
+.agregar {
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+    text-decoration: none; 
+    padding-bottom: 0.8cm;
+    font-weight: bolder;
+    
+}
+
 .img2 {
   width: 200px;
-  height: 190px; 
+  height: 190px;
 }
 
 .list3 {
@@ -266,7 +279,7 @@
   display: flex;
   flex-wrap: wrap;
   border-width: 1.5cm;
-  border: crimson;
+  border: rgba(185, 120, 29, 0.884);
   border-style: solid;
   width: 220px;
   height: 450px;
@@ -280,9 +293,7 @@
   padding-right: 1cm;
 }
 
-
 /*/Detallecanciones/*/
-
 
 /*/Genero/*/
 
@@ -305,7 +316,6 @@
   font-size: 20px;
 }
 
-
 .h1detalles4 {
   display: flex;
   flex-wrap: wrap;
@@ -314,7 +324,6 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
 
 /*/Detalledegenero/*/
 .h1detalles2 {
@@ -357,16 +366,6 @@
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
 .div2 {
   color: white;
   display: flex;
@@ -381,17 +380,11 @@
   float: left;
 }
 
-
-
-
-
 .div3 {
   color: white;
   text-align: center;
   text-decoration: none;
 }
-
-
 
 .P5 {
   color: white;
@@ -414,14 +407,13 @@
   text-decoration: none;
 }
 
-
 .extras {
   color: rgb(255, 253, 253);
   font-size: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: lighter;
-text-decoration:none;
+  text-decoration: none;
 }
 
 .textfooter {
@@ -449,9 +441,6 @@ text-decoration:none;
   opacity: 100%;
 }
 
-
-
-
 .listadetalle3 {
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -460,12 +449,6 @@ text-decoration:none;
   list-style-type: decimal-leading-zero;
   margin-left: 1cm;
 }
-
-
-
-
-
-
 
 .div9 {
   height: 100px;
@@ -542,8 +525,16 @@ text-decoration:none;
   color: white;
 }
 
-
 .section6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  padding-right: 0.5cm;
+  padding-top: 1cm;
+  padding-left: 0.5cm;
+}
+.section7 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -567,12 +558,10 @@ text-decoration:none;
   border-color: rgb(255, 253, 253);
 }
 
-
 .section11 {
+  justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  justify-content: space-between;
   padding-right: 0.5cm;
   padding-top: 1cm;
   padding-left: 0.5cm;
@@ -635,7 +624,6 @@ text-decoration:none;
   width: 300px;
 }
 
-
 .pdetalle {
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -650,14 +638,11 @@ text-decoration:none;
   font-weight: bolder 80%;
 }
 
-
-
 .h1detalles {
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
 
 .listagenero4 {
   display: flex;
@@ -665,11 +650,3 @@ text-decoration:none;
   justify-content: left;
   padding-left: 1cm;
 }
-
-
-
-
-
-
-
-
