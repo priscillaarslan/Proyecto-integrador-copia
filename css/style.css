@@ -2,12 +2,13 @@
 .firstbody {
   background: linear-gradient(100deg, #0b000f 0%, #791a98 200%);}
 
-
-  @media(min-width){
+  @media(min-width:1000px){
+    
     *box-sizing: border-box;
-    font-family: arial, sans-serif; 
-
+font-family: arial, sans-serif;
   }
+
+
 
 .divgeneral {
   color: white;
