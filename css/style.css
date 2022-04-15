@@ -2,10 +2,6 @@
 .firstbody {
   background: linear-gradient(100deg, #0b000f 0%, #791a98 200%);}
 
-  @media{min-width: 460px;} {.../tablet}
-  @media{max-width: 460px;} {.../mobile}
-
-
 .divgeneral {
   color: white;
   display: flex;
