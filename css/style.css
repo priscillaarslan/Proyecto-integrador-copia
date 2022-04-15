@@ -337,11 +337,11 @@
 }
 
 .tdivgeneral {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: lighter;
   text-decoration: none;
   color: white;
-}
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 .vermas {
   text-decoration: none;
