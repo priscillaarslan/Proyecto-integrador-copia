@@ -289,6 +289,7 @@ font-family: arial, sans-serif;
 .cajadetalle {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin: 10px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -450,11 +451,11 @@ font-family: arial, sans-serif;
 
 .listadetalle {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   width: 180px;
   margin-left: 20px;
-  justify-content: center;
+  
 }
 
 /*/Detalle de album/*/
