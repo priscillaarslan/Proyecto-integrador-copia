@@ -303,6 +303,7 @@
 .cajadetalle {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin: 10px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -465,13 +466,22 @@
 }
 
 .listadetalle {
-  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 180px;
-  margin-left: 20px;
-  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
+
+.listadetalle6{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 180px;
+  margin: 14px;
+}
+
+
 
 /*/Detalle de album/*/
 
