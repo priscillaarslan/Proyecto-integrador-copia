@@ -3,18 +3,13 @@
   background: linear-gradient(100deg, #0b000f 0%, #791a98 200%);
 }
 
-@media (min-width: 1000px) {
-  *box-sizing: border-box;
-  font-family: arial, sans-serif;
-}
-
 .divgeneral {
   color: white;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-between;
-  height: 1400px;
+  height: 1600px;
   width: 250px;
   justify-content: space-around;
   background-color: rgb(24, 15, 29);
@@ -51,18 +46,33 @@
 }
 
 /*/Detalledeartista/*/
-.iframe3{width: 220px;}
-
-.detalleartistas1{display: flex; flex-wrap: wrap; justify-content: space-between; flex-direction: row;}
-
-.detalleartistas{
-  display: flex; flex-wrap: wrap; justify-content: space-between; width: 200px; flex-direction: column; padding-left: 1cm; justify-content: center; padding-right: 1cm;
+.iframe3 {
+  width: 220px;
 }
 
+.detalleartistas1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+ padding-right: 0.5cm;
+}
 
-.img5{width: 220px; height: 200;}
+.detalleartistas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 200px;
+  flex-direction: column;
+  padding-left: 1cm;
+  justify-content: center;
+  padding-right: 1cm;
+}
 
-
+.img5 {
+  width: 220px;
+  height: 200;
+}
 
 /*/Logo/*/
 .logo {
@@ -110,6 +120,7 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 25px;
+  text-decoration: none;
 }
 
 .div5 {
@@ -182,7 +193,11 @@
   justify-content: space-between;
 }
 
-.playlist2 {display: flex; flex-wrap: wrap;  justify-content: space-between;}
+.playlist2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 .pl2 {
   display: flex;
@@ -473,14 +488,6 @@
   margin-right: 10px;
 }
 
-.listadetalle6{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 180px;
-  margin: 14px;
-}
-
 
 
 /*/Detalle de album/*/
@@ -536,8 +543,9 @@
 .ppp {
   color: white;
   justify-content: center;
-  padding-left: 1cm;
   font-weight: bolder 80%;
+  text-decoration: none;
+  padding-left: 0.2cm;
 }
 
 .h1detalles {
@@ -551,4 +559,13 @@
   flex-wrap: wrap;
   justify-content: left;
   padding-left: 1cm;
+}
+
+
+/*/Media Query /*/
+@media (min-width: 1000px){
+  {*box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
 }
