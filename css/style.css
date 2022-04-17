@@ -450,13 +450,22 @@ font-family: arial, sans-serif;
 }
 
 .listadetalle {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 180px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.listadetalle6{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   width: 180px;
-  margin-left: 20px;
-  
+  margin: 14px;
 }
+
+
 
 /*/Detalle de album/*/
 
