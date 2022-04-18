@@ -593,20 +593,23 @@ color: white;
   .extras{font-size: 8px; margin: 2}
 
 
+   /*/Query de playlist /*/
+   .iframe1{margin-right: 1cm; width: 90%;}
+
    /*/Query detalle de genero /*/
+   .divgeneral{height: 2000px;}
+   .footer{justify-content: end;}
+   .firstbody{height: 1000px;}
 
-
-  
- 
-  
-
-  
-
-  /*/Query de playlist /*/
 
 
  /*/Query detalle de artista /*/
-
+ .artistas{font-size: 10px; margin-right: 1cm;}
+.img5{width: 150px;}
+.iframe3{width: 150px;}
+.buscador1{margin-right: 0.8cm;}
+.div1{width: 70%;}
+.divgeneral{}
 
 
 
