@@ -307,6 +307,7 @@
 .h1detalles2 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: end;
   justify-content: left;
   padding-left: 1cm;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -395,7 +396,6 @@
 
 .extras {
   color: rgb(255, 253, 253);
-  margin-left: 10px;
   font-size: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -594,9 +594,15 @@
   
 
   /*/Query de index /*/
-  .divgeneral{width: 35%; height: 5500px;}
-  .tdivgeneral{font-size: 15px; }
-  .buscador1{justify-content: right; }
+  .firstbody{width: 100%;}
+  .divgeneral{width: 20%;}
+  .tdivgeneral{font-size: 8px; }
+  .divcaja{margin-right: 2cm;}
+  .section1{width: 50%;}
+  .article1{width: 50%;}
+
+  
+
 
   /*/Query de playlist /*/
   .firstbody{width: 100%;}
@@ -605,18 +611,20 @@
   .div1{width: 100%;}
   .playlist2{ width: 80%; margin-left: 2cm; justify-content: top;}
   .section7{ width: 75%; font-size: 10px; margin-left: 2cm;}
-.section16{width: 100%;}
-.extras{font-size: 10px;}
-.iframe1{width: 220px;}
-.pl2{width: 100%;}
-.buscador1{justify-content: right;}
+  .section16{width: 100%;}
+  .extras{font-size: 10px;}
+  .iframe1{width: 220px;}
+  .pl2{width: 100%;}
+  .buscador1{justify-content: right;}
 
 
  /*/Query detalle de artista /*/
 .div1{width: 100%;}
 .h1detalles{width: 60%;}
-.divgeneral{height: 2000px;}
-.listadetalle{margin-right: 2cm;}
+.divgeneral{height: 5500px;}
+.listadetalle{margin-right: 1cm;}
+.artistas{font-size: 8px;}
+
 
  /*/Query detalle de genero /*/
 
@@ -632,6 +640,13 @@
 .iframe{width: 100%; }
 }{ 
 
+  /*/Query detalle de canciones /*/
+  .firstbody{width: 100%;}
+  .divgeneral{width: 50%;}
+  .section3{width: 70%; margin-left: 2cm;}
+  .iframe5{width: 80%;}
+  .listadetalle2{font-size: 10px;}
+  .list3{font-size: 10px;}
 
   
 
