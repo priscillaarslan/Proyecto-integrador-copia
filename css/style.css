@@ -594,6 +594,13 @@ color: white;
 
 
    /*/Query detalle de genero /*/
+   
+
+
+
+
+
+   }
 
 
   
@@ -603,6 +610,14 @@ color: white;
   
 
   /*/Query de playlist /*/
+
+  /*/ Genero/*/
+  @media (max-width: 420px) {
+
+
+  }
+
+  
 
 
  /*/Query detalle de artista /*/
