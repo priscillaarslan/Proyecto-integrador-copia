@@ -607,9 +607,11 @@ color: white;
  
   
 
-  
+   /*/Query detalle de genero /*/
+   .divgeneral{height: 2000px;}
+   .footer{justify-content: end;}
+   .firstbody{height: 1000px;}
 
-  /*/Query de playlist /*/
 
   /*/ Genero/*/
   @media (max-width: 420px) {
@@ -621,7 +623,12 @@ color: white;
 
 
  /*/Query detalle de artista /*/
-
+ .artistas{font-size: 10px; margin-right: 1cm;}
+.img5{width: 150px;}
+.iframe3{width: 150px;}
+.buscador1{margin-right: 0.8cm;}
+.div1{width: 70%;}
+.divgeneral{}
 
 
 
@@ -634,12 +641,17 @@ color: white;
 
   /*/Query detalle de album /*/
 
-   /*/Query detalle de disco /*/
+  /*/ Query detalle de canciones /*/
+
+  
 
 
 
 
-  }
-}
+   
+
+
+
+  
 
 
