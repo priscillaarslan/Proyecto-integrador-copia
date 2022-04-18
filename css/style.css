@@ -591,18 +591,20 @@
 
 /*/Small devices, tablets /*/
 @media (max-width: 420px) {
-  
 
+   /*/Query detalle de genero /*/
+ .linea{width: 50%;}
+
+  
   /*/Query de index /*/
   .firstbody{width: 100%;}
   .divgeneral{width: 20%;}
   .tdivgeneral{font-size: 8px; }
   .divcaja{margin-right: 2cm;}
-  .section1{width: 50%;}
-  .article1{width: 50%;}
+  .artistas2{font-size: 10px;}
+  .artistas{font-size: 8px;}
 
   
-
 
   /*/Query de playlist /*/
   .firstbody{width: 100%;}
@@ -623,10 +625,13 @@
 .h1detalles{width: 60%;}
 .divgeneral{height: 5500px;}
 .listadetalle{margin-right: 1cm;}
-.artistas{font-size: 8px;}
+.artistas{font-size: 8px; margin-left: 2cm;}
+.iframe5{width: 90%;}
+.detalleartistas{margin-left: 2cm;}
 
 
- /*/Query detalle de genero /*/
+
+
 
 
  
@@ -645,8 +650,9 @@
   .divgeneral{width: 50%;}
   .section3{width: 70%; margin-left: 2cm;}
   .iframe5{width: 80%;}
-  .listadetalle2{font-size: 10px;}
+  .listadetalle2{font-size: 10px; margin-left: 2cm;} 
   .list3{font-size: 10px;}
+  .article4{margin-left: 2cm;}
 
   
 
