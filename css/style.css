@@ -376,7 +376,7 @@ color: white;
 }
 
 .divcaja{
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 .vermas {
@@ -585,42 +585,27 @@ color: white;
 /*/Small devices, tablets /*/
 @media (max-width: 420px) {
 
+
+   /*/Query de index /*/
+
+  .divgeneral{width: 20%; height: 5500px;}
+  .tdivgeneral{font-size: 8px; margin-left: 0.2cm;}
+  .extras{font-size: 8px; margin: 2}
+
+
    /*/Query detalle de genero /*/
- .linea{width: 50%;}
+
 
   
-  /*/Query de index /*/
-  .firstbody{width: 100%;}
-  .divgeneral{width: 20%;}
-  .tdivgeneral{font-size: 8px; }
-  .divcaja{margin-right: 2cm;}
-  .artistas2{font-size: 10px;}
-  .artistas{font-size: 8px;}
+ 
+  
 
   
 
   /*/Query de playlist /*/
-  .firstbody{width: 100%;}
-  .divgeneral{width: 20%; height: 3500px;}
-  .tdivgeneral{font-size: 8px; }
-  .div1{width: 100%;}
-  .playlist2{ width: 80%; margin-left: 2cm; justify-content: top;}
-  .section7{ width: 75%; font-size: 10px; margin-left: 2cm;}
-  .section16{width: 100%;}
-  .extras{font-size: 10px;}
-  .iframe1{width: 220px;}
-  .pl2{width: 100%;}
-  .buscador1{justify-content: right;}
 
 
  /*/Query detalle de artista /*/
-.div1{width: 100%;}
-.h1detalles{width: 60%;}
-.divgeneral{height: 5500px;}
-.listadetalle{margin-right: 1cm;}
-.artistas{font-size: 8px; margin-left: 2cm;}
-.iframe5{width: 90%;}
-.detalleartistas{margin-left: 2cm;}
 
 
 
@@ -630,26 +615,6 @@ color: white;
  
 
  /*/Query de detalle de disco  /*/
- .divgeneral{width: 20%;  }
- .firstbody{width: 100%;}
- .div1{width: 100%;}
- .section6{width: 100%;}
- .section10{width: 100%; margin-left: 1.5cm; margin-right: 1cm;}
-.iframe{width: 100%; }
-}{ 
-
-  /*/Query detalle de canciones /*/
-  .firstbody{width: 100%;}
-  .divgeneral{width: 50%;}
-  .section3{width: 70%; margin-left: 2cm;}
-  .iframe5{width: 80%;}
-  .listadetalle2{font-size: 10px; margin-left: 2cm;} 
-  .list3{font-size: 10px;}
-  .article4{margin-left: 2cm;}
-
-  
-
-
 
 
   /*/Query detalle de album /*/
