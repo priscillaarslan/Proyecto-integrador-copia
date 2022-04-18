@@ -265,6 +265,41 @@
 }
 
 /*/Detallecanciones/*/
+.section4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 1cm;
+  padding-right: 1cm;}
+
+  .article4 {
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 1cm;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  border-width: 1.5cm;
+  border: rgba(214, 147, 23, 0.884);
+  border-style: double;
+  width: 220px;
+  height: 450px;
+}
+.listadetalle5{
+  
+  color: rgb(252, 244, 244);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  justify-content: center;
+list-style-type: square;
+
+  
+  
+  } 
+
+
 
 
 /*/Genero/*/
