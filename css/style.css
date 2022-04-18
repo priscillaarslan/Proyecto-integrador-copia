@@ -1,17 +1,15 @@
 /*/Divs generales/*/
 .firstbody {
   background: linear-gradient(100deg, #0b000f 0%, #791a98 200%);
+  margin: 0%;
 }
 
 .divgeneral {
   color: white;
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
   justify-content: space-between;
   height: 1600px;
   width: 250px;
-  justify-content: space-around;
   background-color: rgb(24, 15, 29);
   text-decoration: none;
   clear: both;
@@ -379,12 +377,17 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.divcaja{
+  margin-left: 40px;
+}
+
 .vermas {
   text-decoration: none;
 }
 
 .extras {
   color: rgb(255, 253, 253);
+  margin-left: 10px;
   font-size: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -518,7 +521,6 @@
 
 .section10 {
   display: flex;
-  
   justify-content: center;
   justify-content: space-between;
   margin: 10px;
