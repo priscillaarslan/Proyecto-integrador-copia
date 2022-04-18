@@ -614,14 +614,19 @@ color: white;
 .img5{width: 150px;}
 .iframe3{width: 150px;}
 .buscador1{margin-right: 0.8cm;}
-.div1{width: 70%;}
+.div1{width: 100%;}
 .divgeneral{height: 5000px;}
 .firstbody{height: 5000px;}
 
 
 
    /*/Query detalle de canciones /*/
-
+   .divgeneral{width: 20%; height: 5500px;}
+   .section3{width: 200px;}
+   .buscador1{margin-right: 0.8cm;}
+   .div1{width: 100%;}
+   .footer{width: 95%}
+   
 
    /*/Query de detalle de disco  /*/
 
