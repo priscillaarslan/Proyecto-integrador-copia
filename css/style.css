@@ -1,20 +1,15 @@
 /*/Divs generales/*/
 .firstbody {
-  background: linear-gradient(100deg, #0b000f 0%, #791a98 200%);}
-
-  @media{min-width: 460px;} {.../tablet}
-  @media{max-width: 460px;} {.../mobile}
-
+  background: linear-gradient(100deg, #0b000f 0%, #791a98 200%);
+  margin: 0%;
+}
 
 .divgeneral {
   color: white;
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
   justify-content: space-between;
-  height: 1400px;
+  height: 1600px;
   width: 250px;
-  justify-content: space-around;
   background-color: rgb(24, 15, 29);
   text-decoration: none;
   clear: both;
@@ -41,12 +36,40 @@
   color: white;
   font-weight: bold;
   justify-content: center;
- 
 }
 
 .img1 {
   width: 200px;
   height: 190px;
+}
+
+/*/Detalledeartista/*/
+.iframe3 {
+  width: 220px;
+}
+
+.detalleartistas1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+ padding-right: 0.5cm;
+}
+
+.detalleartistas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 200px;
+  flex-direction: column;
+  padding-left: 1cm;
+  justify-content: center;
+  padding-right: 1cm;
+}
+
+.img5 {
+  width: 220px;
+  height: 200;
 }
 
 /*/Logo/*/
@@ -95,6 +118,7 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 25px;
+  text-decoration: none;
 }
 
 .div5 {
@@ -130,13 +154,7 @@
   padding-left: 1.2cm;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-.playlist2 {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 1cm;
-  width: 300px;
+  justify-content: space-between;
 }
 
 .textplaylist {
@@ -173,6 +191,20 @@
   justify-content: space-between;
 }
 
+.playlist2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pl2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 350px;
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
+}
 
 /*/Canciones/*/
 .article3 {
@@ -185,11 +217,10 @@
   color: rgb(255, 255, 255);
   font-size: 13px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
-    text-decoration: none; 
-    padding-bottom: 0.8cm;
-    font-weight: bolder;
-    
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  padding-bottom: 0.8cm;
+  font-weight: bolder;
 }
 
 .img2 {
@@ -285,6 +316,7 @@
 .cajadetalle {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin: 10px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -299,7 +331,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  text-align: left;
+  justify-content: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 15px;
@@ -337,10 +369,16 @@
 }
 
 .tdivgeneral {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: lighter;
   text-decoration: none;
   color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.divcaja{
+  margin-left: 40px;
 }
 
 .vermas {
@@ -349,6 +387,7 @@
 
 .extras {
   color: rgb(255, 253, 253);
+  margin-left: 10px;
   font-size: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -445,13 +484,14 @@
 }
 
 .listadetalle {
-  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 180px;
-  margin-left: 20px;
-  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
+
+
 
 /*/Detalle de album/*/
 
@@ -479,21 +519,15 @@
   padding-left: 0.5cm;
 }
 
-
-
 .section10 {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   justify-content: space-between;
-  padding-right: 0.5cm;
-  padding-top: 1cm;
-  padding-left: 0.5cm;
+  margin: 10px;
   border-style: solid;
   border-width: 0.03cm;
   border-color: rgba(213, 155, 47, 0.886);
 }
-
 
 .iframe {
   width: 300px;
@@ -509,8 +543,9 @@
 .ppp {
   color: white;
   justify-content: center;
-  padding-left: 1cm;
   font-weight: bolder 80%;
+  text-decoration: none;
+  padding-left: 0.2cm;
 }
 
 .h1detalles {
@@ -524,4 +559,13 @@
   flex-wrap: wrap;
   justify-content: left;
   padding-left: 1cm;
+}
+
+
+/*/Media Query /*/
+@media (min-width: 1000px){
+  {*box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
 }
