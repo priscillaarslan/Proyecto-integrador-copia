@@ -613,13 +613,14 @@ color: white;
 .img5{width: 150px;}
 .iframe3{width: 150px;}
 .buscador1{margin-right: 0.8cm;}
-.div1{width: 70%;}
+.div1{width: 100%;}
 .divgeneral{height: 5000px;}
 .firstbody{height: 5000px;}
 
 
 
    /*/Query detalle de canciones /*/
+<<<<<<< HEAD
    .divgeneral{width: 12%; height: 4500px;}
    .firstbody{height: 1500px;}
    .tdivgeneral{font-size: 6px;}
@@ -631,6 +632,14 @@ color: white;
    .iframe5{width: 60%;}
    .section3{padding-right: 2cm;}
 
+=======
+   .divgeneral{width: 20%; height: 5500px;}
+   .section3{width: 200px;}
+   .buscador1{margin-right: 0.8cm;}
+   .div1{width: 100%;}
+   .footer{width: 95%}
+   
+>>>>>>> 90e8f82d3867a5855bf5b120bac0787940d46517
 
    /*/Query de detalle de disco  /*/
 
