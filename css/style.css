@@ -591,13 +591,11 @@ color: white;
 /*/Small devices, tablets /*/
 @media (max-width: 420px) {
 
-
    /*/Query de index /*/
 
   .divgeneral{width: 20%; height: 5500px;}
   .tdivgeneral{font-size: 8px; margin-left: 0.2cm;}
   .extras{font-size: 8px; margin: 2}
-
 
    /*/Query de playlist /*/
    .iframe1{margin-right: 1cm; width: 90%;}
@@ -607,7 +605,6 @@ color: white;
    .footer{justify-content: end;}
    .firstbody{height: 1000px;}
 
-
  /*/Query detalle de artista /*/
  .artistas{font-size: 10px; margin-right: 1cm;}
 .img5{width: 150px;}
@@ -616,7 +613,6 @@ color: white;
 .div1{width: 100%;}
 .divgeneral{height: 5000px;}
 .firstbody{height: 5000px;}
-
 
 
    /*/Query detalle de canciones /*/
