@@ -279,7 +279,6 @@
 
 
 
-
 /*/Genero/*/
 
 .listagenero {
@@ -621,6 +620,16 @@ color: white;
 
 
    /*/Query detalle de canciones /*/
+   .divgeneral{width: 12%; height: 4500px;}
+   .firstbody{height: 1500px;}
+   .tdivgeneral{font-size: 6px;}
+   .extras{font-size: 6px;}
+   .listadetalle5{font-size: 15px;}
+   .buscador1{width: 68%; }
+   .list3{font-size: 10px;}
+   .agregar{font-size: 10px;}
+   .iframe5{width: 60%;}
+   .section3{padding-right: 2cm;}
 
 
    /*/Query de detalle de disco  /*/
