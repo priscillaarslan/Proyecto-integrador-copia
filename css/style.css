@@ -211,22 +211,13 @@
   padding-right: 0.5cm;
 }
 
-/*/Canciones/*/
+/*/Resultados de busqueda/*/
 .article3 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
-.agregar {
-  color: rgb(255, 255, 255);
-  font-size: 13px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-decoration: none;
-  padding-bottom: 0.8cm;
-  font-weight: bolder;
-}
 
 .img2 {
   width: 200px;
@@ -240,6 +231,7 @@
   font-size: 18px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
 
 .listadetalle2 {
@@ -272,6 +264,20 @@
 
 /*/Detallecanciones/*/
 .iframe5{width: 250px; height: 250px;}
+.listadetalle5{list-style: square; font-size: 25px; color: white;}
+
+.agregar {
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  padding-bottom: 0.8cm;
+  font-weight: bolder;
+}
+
+
+
 
 /*/Genero/*/
 
@@ -645,6 +651,7 @@ color: white;
 
   
 
+   /*/Query de detalle de disco  /*/
 
 
 
